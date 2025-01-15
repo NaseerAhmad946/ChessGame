@@ -38,7 +38,7 @@ Push your branch to your forked repository.
 
 License:
 
-This project is licensed under the [License Name] - see the [LICENSE] file for details.
+This project is licensed under the License.txt name - see the [LICENSE] file for details.
 
 Known Issues and Limitations:
 
@@ -63,3 +63,8 @@ Future Improvements:
     User Experience:
         Add a menu bar or toolbar for game options, settings, and help.
         Enhance error handling and user input validation.
+![Chess Board](https://github.com/NaseerAhmad946/ChessGame/blob/835960da0d7b80085b93c7f64fb0fccb1ecd6aa7/Check%20pic.png)
+![Chess Board](https://github.com/NaseerAhmad946/ChessGame/blob/835960da0d7b80085b93c7f64fb0fccb1ecd6aa7/GameOver.png)
+![Chess Board](https://github.com/NaseerAhmad946/ChessGame/blob/835960da0d7b80085b93c7f64fb0fccb1ecd6aa7/InvalidMove.png)
+![Chess Board](https://github.com/NaseerAhmad946/ChessGame/blob/835960da0d7b80085b93c7f64fb0fccb1ecd6aa7/output%20git%20screen%20short.png)
+
