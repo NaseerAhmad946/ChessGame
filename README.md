@@ -38,7 +38,9 @@ Push your branch to your forked repository.
 
 License:
 
-This project is licensed under the License.txt name - see the [LICENSE] file for details.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/NaseerAhmad946/ChessGame/blob/main/LICENSE.txt) file for more details.
 
 Known Issues and Limitations:
 
