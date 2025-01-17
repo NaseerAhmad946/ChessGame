@@ -653,20 +653,20 @@ public class ChessGame extends JFrame {
 // White pieces: W<PieceName>.png (e.g., WPawn.png, WKnight.png)
 // Black pieces: B<PieceName>.png (e.g., BPawn.png, BKnight.png)
 
-String baseImagePath = "/home/naseer/Downloads/"; 
+// No need for a base path since we're using the resources folder
+whitePawnIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/WPawn.png")));
+blackPawnIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/BPawn.png")));
+whiteKnightIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/WKnight.png")));
+blackKnightIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/BKnight.png")));
+whiteBishopIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/WBishop.png")));
+blackBishopIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/BBishop.png")));
+whiteRookIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/WRook.png")));
+blackRookIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/BRook.png")));
+whiteQueenIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/WQueen.png")));
+blackQueenIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/BQueen.png")));
+whiteKingIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/WKing.png")));
+blackKingIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/BKing.png")));
 
-whitePawnIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "WPawn.png")));
-blackPawnIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "BPawn.png")));
-whiteKnightIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "WKnight.png")));
-blackKnightIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "BKnight.png")));
-whiteBishopIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "WBishop.png")));
-blackBishopIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "BBishop.png")));
-whiteRookIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "WRook.png")));
-blackRookIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "BRook.png")));
-whiteQueenIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "WQueen.png")));
-blackQueenIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "BQueen.png")));
-whiteKingIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "WKing.png")));
-blackKingIcon = new ImageIcon(ImageIO.read(new File(baseImagePath + "BKing.png")));
 
             // Scale images
             whitePawnIcon.setImage(whitePawnIcon.getImage().getScaledInstance(60, 60, Image.SCALE_DEFAULT));
